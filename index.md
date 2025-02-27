@@ -31,7 +31,7 @@ myDocker](https://mydocker.universite-paris-saclay.fr/) vous donne
 accès à tous les environnements que vous avez déjà utilisé.
 
 
-:::{admonition} Environnement clone de celui de JupyterHub@Paris-Saclay [Démarrer l'environnement](https://mydocker.universite-paris-saclay.fr/shell/join/qWsmLepfAkaFqYIQBjKL)
+:::{admonition} Clone de JupyterHub@Paris-Saclay [Démarrer l'environnement](https://mydocker.universite-paris-saclay.fr/shell/join/qWsmLepfAkaFqYIQBjKL)
 :class: dropdown
 
 - Logiciels: Python et ses bibliothèques classiques, SageMath, C++, R, ...
@@ -50,7 +50,7 @@ environnements plus spécialisés.**
 
 :::
 
-:::{admonition} [JupyterLab et Python](https://mydocker.universite-paris-saclay.fr/shell/join/IvvgFOBBFzGLwuGJeFSb)
+:::{admonition} JupyterLab et Python [Démarrer l'environnement](https://mydocker.universite-paris-saclay.fr/shell/join/IvvgFOBBFzGLwuGJeFSb)
 :class: dropdown
 
 - Interface: JupyterLab en Français
@@ -66,7 +66,7 @@ notamment pour de l'initiation à la programmation et au calcul.
 
 :::
 
-:::{admonition} [JupyterLab, Python et bibliothèques scientifiques](https://mydocker.universite-paris-saclay.fr/shell/join/adNzzJUzLSjBjmwQohnD)
+:::{admonition} JupyterLab, Python et bibliothèques scientifiques [Démarrer l'environnement](https://mydocker.universite-paris-saclay.fr/shell/join/adNzzJUzLSjBjmwQohnD)
 :class: dropdown
 
 - Interface: JupyterLab
@@ -82,7 +82,7 @@ de la communauté Jupyter.
 :::
 
 
-:::{admonition} [JupyterLab et PyTorch pour l'apprentissage profond](https://mydocker.universite-paris-saclay.fr/shell/join/PQCQGTeqRfsuQaTHOmmd)
+:::{admonition} JupyterLab et PyTorch pour l'apprentissage profond [Démarrer l'environnement](https://mydocker.universite-paris-saclay.fr/shell/join/PQCQGTeqRfsuQaTHOmmd)
 :class: dropdown
 
 - Interface: JupyterLab
@@ -101,7 +101,7 @@ l'usage CPU. Merci de ne pas en abuser!
 :::
 
 
-:::{admonition} [JupyterLab et C++](https://mydocker.universite-paris-saclay.fr/shell/join/pQlQsEaZSPJMBsBtbxOD)
+:::{admonition} JupyterLab et C++ [Démarrer l'environnement](https://mydocker.universite-paris-saclay.fr/shell/join/pQlQsEaZSPJMBsBtbxOD)
 :class: dropdown
 
 - Interface: JupyterLab, en Français
@@ -120,7 +120,7 @@ l'usage CPU. Merci de ne pas en abuser!
 :::
 
 
-:::{admonition} [JupyterLab et SageMath](https://mydocker.universite-paris-saclay.fr/shell/join/gkctIyHvdZkofetGeMju)
+:::{admonition} JupyterLab et SageMath [Démarrer l'environnement](https://mydocker.universite-paris-saclay.fr/shell/join/gkctIyHvdZkofetGeMju)
 :class: dropdown
 
 - Interface: JupyterLab, en Français
@@ -137,7 +137,7 @@ l'usage CPU. Merci de ne pas en abuser!
 
 :::
 
-:::{admonition} 🚧[JupyterLab et Julia](https://mydocker.universite-paris-saclay.fr/shell/join/ilpJoKzaJZVisfPVJLcL)🚧
+:::{admonition} 🚧JupyterLab et Julia [Démarrer l'environnement](https://mydocker.universite-paris-saclay.fr/shell/join/ilpJoKzaJZVisfPVJLcL)🚧
 :class: dropdown
 
 - Interface: JupyterLab, en Français
