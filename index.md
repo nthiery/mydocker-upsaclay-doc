@@ -421,8 +421,10 @@ fournissant un lien vers l'environnement.
 ::::{admonition} Inclure myDocker comme activité dans Moodle/eCampus/... (à venir)
 :class: hint dropdown
 
-:::{todo}
+:::{admonition} En construction
 - récupérer copie d'écran de Charlène
+:::
+
 :::
 
 Si l'utilisation est large (par exemple plus d'une centaine
@@ -503,7 +505,7 @@ la liste des paquets à installer. À titre d'essai préalable, vous
 pouvez tester l'installation des logiciels directement dans
 l'environnement d'inspiration.
 
-:::{todo}
+:::{admonition} En construction
 - Mettre les liens vers quelques images de base (communauté Jupyter, mambaforge)
 - Philosophie
 :::
