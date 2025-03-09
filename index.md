@@ -425,7 +425,7 @@ fournissant un lien vers l'environnement.
 - récupérer copie d'écran de Charlène
 :::
 
-:::
+::::
 
 Si l'utilisation est large (par exemple plus d'une centaine
 d'étudiants utilisant simultanément myDocker), merci de nous
