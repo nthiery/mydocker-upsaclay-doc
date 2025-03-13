@@ -36,7 +36,7 @@ accès à tous les environnements que vous avez déjà utilisé.
 
 - Logiciels: Python et ses bibliothèques classiques, SageMath, C++, R, ...
 - Interfaces: JupyterLab, Jupyter, Visual Studio Code ou environnement de bureau graphique XFCE
-- Ressources: dossier personnel persistent global, 2 CPU, 4Go RAM, extinction après 20 minutes sans interaction
+- Ressources: dossier personnel persistant global, 2 CPU, 4Go RAM, extinction après 20 minutes sans interaction
 
 Cet environnement multiusage est strictement identique à celui déployé
 sur l'ancien service JupyterHub@Paris-Saclay et a vocation à faciliter
@@ -55,7 +55,7 @@ environnements plus spécialisés.**
 
 - Interface: JupyterLab en Français
 - Logiciels: Python, Numpy, SciPy, MatPlotLib, Pandas, conda, pip, ...
-- Ressources: dossier personnel persistent global, 2 CPU, 4Go RAM, extinction après 20 minutes sans interaction, agent conversationnel
+- Ressources: dossier personnel persistant global, 2 CPU, 4Go RAM, extinction après 20 minutes sans interaction, agent conversationnel
 - Cours: [«Introduction à la programmation avec Python et Jupyter»](https://introductionprogrammationpython.pages.centralesupelec.fr/), ...
 - [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/21/edit) (accès restreint)
 - [Configuration de l'image](https://gitlab-research.centralesupelec.fr/IntroductionProgrammationPython/introductionprogrammationpython.pages.centralesupelec.fr/)
@@ -71,7 +71,7 @@ notamment pour de l'initiation à la programmation et au calcul.
 
 - Interface: JupyterLab
 - Logiciels: Python, Numpy, SciPy, MatPlotLib, Pandas, scikit-learn, conda, pip, ...
-- Ressources: dossier personnel persistent global, 2 CPU, 4Go RAM, extinction après 20 minutes sans interaction
+- Ressources: dossier personnel persistant global, 2 CPU, 4Go RAM, extinction après 20 minutes sans interaction
 - [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/34/edit) (accès restreint)
 - Mainteneur: Nicolas M. Thiéry
 
@@ -87,7 +87,7 @@ de la communauté Jupyter.
 
 - Interface: JupyterLab
 - Logiciels: Python, Numpy, SciPy, MatPlotLib, Pandas, scikit-learn, PyTorch, conda, pip, ...
-- Ressources: dossier personnel persistent global, 4Go RAM, extinction après 20 minutes sans interaction
+- Ressources: dossier personnel persistant global, 4Go RAM, extinction après 20 minutes sans interaction
 - Mainteneur: Nicolas M. Thiéry
 - [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/35/edit) (accès restreint)
 
@@ -106,7 +106,7 @@ l'usage CPU. Merci de ne pas en abuser!
 
 - Interface: JupyterLab, en Français
 - Logiciels: compilateurs (gcc, clang) et interpréteur (cling) C++, Travo, ...
-- Ressources: dossier personnel persistent global, 2 CPU, 4Go RAM, extinction après 20 minutes sans interaction, agent conversationnel
+- Ressources: dossier personnel persistant global, 2 CPU, 4Go RAM, extinction après 20 minutes sans interaction, agent conversationnel
 - Cours:
   - «Introduction à la Programmation Impérative», L1 Math-Info, S2, Faculté des Sciences d'Orsay
   - Programmation Modulaire, L1 Math-Info, S2, Faculté des Sciences d'Orsay
@@ -125,7 +125,7 @@ l'usage CPU. Merci de ne pas en abuser!
 
 - Interface: JupyterLab, en Français
 - Logiciels: SageMath, Travo
-- Ressources: dossier personnel persistent global, 2 CPU, 4Go RAM, extinction après 20 minutes sans interaction, agent conversationnel
+- Ressources: dossier personnel persistant global, 2 CPU, 4Go RAM, extinction après 20 minutes sans interaction, agent conversationnel
 - Cours:
   - «Option C: Algèbre et Calcul Formel», Agrégation de Mathématique, Faculté des Sciences d'Orsay
   - «Combinatoire et Calcul algébrique», M1 MPRI, Faculté des Sciences d'Orsay
@@ -143,7 +143,7 @@ l'usage CPU. Merci de ne pas en abuser!
 - Interface: JupyterLab, en Français
 - Logiciels: Julia with packages SymPy, Plots, Statistics, DataFrames,
   DSP, Latexify
-- Ressources: dossier personnel persistent et dossier personnel global (dans shared/), 2 CPU, 4Go RAM, extinction après 30 minutes sans interaction
+- Ressources: dossier personnel persistant et dossier personnel global (dans shared/), 2 CPU, 4Go RAM, extinction après 30 minutes sans interaction
 - Cours: ???
 - Mainteneur: Nicolas M. Thiéry, Bastien Berret
 - [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/8/edit) (accès restreint)
@@ -174,7 +174,7 @@ de la communauté Jupyter.
   en IA, il est possible au cas par cas d'utiliser l'[instance
   myDocker de Centrale-Supélec](https://mydocker.centralesupelec.fr/),
   dont les serveurs sont loués à la demande. Nous [contacter](contact).
-- **Persistence des données**.
+- **Persistance des données**.
 - **Hébergement souverain**.
 - **IA**: intégration d'un agent conversationnel souverain (Aristote).
 
@@ -508,6 +508,103 @@ l'environnement d'inspiration.
 :::{admonition} En construction
 - Mettre les liens vers quelques images de base (communauté Jupyter, mambaforge)
 - Philosophie
+:::
+
+Nous documentons ci-dessous quelques uns des éléments de configuration:
+
+:::{admonition} Sessions
+:class: hint dropdown
+
+Dans l'onglet «information générales» d'un environnement il est
+possible d'indiquer des «sessions».
+
+Sur l'instance myDocker@CentraleSupelec, où les serveurs sont loués à
+la demande, ces sessions permettent de réserver les serveurs aux
+horaires indiqués. C'est utilisé notamment pour de grands cours
+(plusieurs centaines d'étudiants simultanés) ou des cours utilisant
+des ressources lourdes (GPU). Ces sessions sont sujettes à validation
+par les administrateurs.
+
+Sur l'instance myDocker@Paris-Saclay, ces sessions sont
+essentiellement indicatives. En dehors des sessions, l'environnement
+n'apparaît pas sur le tableau de bord des élèves. Et les
+administrateurs s'en servent pour avoir une idée de l'usage
+(prévisionnel) du service et des périodes calmes. La recommandation
+est de mettre une session par semestre (ou période) pendant lesquels
+les étudiants utilisent le service, en n'hésitant pas à prendre de la
+marge, par exemple pour des étudiants qui souhaiteraient utiliser leur
+environnement après la fin des cours. Et d'indiquer le nombre total
+d'étudiants.
+
+:::
+
+:::{admonition} Extinction automatique des environnements
+:class: hint dropdown
+
+Dans l'onglet «informations générales» d'un environnement il est
+possible de configurer une extinction automatique des
+environnements. Cette fonctionnalité est prévue pour les cas où l'on
+souhaite imposer une durée limitée d'accès à l'environnement (examen,
+accès à des ressources coûteuses, etc).
+
+Si l'on utilise JupyterLab et si l'on souhaite juste que
+l'environnement s'éteigne automatiquement au bout d'un certain temps
+d'inactivité, une meilleure alternative est de déléguer cette tâche à
+en spécifiant les options adéquates dans la commande de lancement de
+JupyterLab. Dans l'exemple suivant, les noyaux, les terminaux puis
+l'application JupyterLab tout entière s'éteignent automatiquement au
+bout de 20 minutes (1200 secondes) d'inactivité:
+
+```
+jupyter lab --no-browser --ip="0.0.0.0" --IdentityProvider.token={{PASSWORD}} --ServerApp.shutdown_no_activity_timeout=1200 --MappingKernelManager.cull_idle_timeout=1200 --TerminalManager.cull_inactive_timeout=1200
+```
+:::
+
+
+:::{admonition} Dossier personnel persistant
+:class: hint dropdown
+
+L'item «Sauvegarder le travail de l'étudiant» permet d'activer la
+persistance d'un dossier personnel de l'utilisateur dédié à cet
+environnement. L'item «Activer le répertoire personnel de l'élève» est
+similaire sauf que ledit dossier personnel est partagé avec les autres
+environnements.
+
+Le «chemin du volume étudiant» est le chemin où le dossier personnel
+est mis à disposition dans le conteneur. C'est typiquement
+`/home/jovyan` pour une image basée sur la pile docker de Jupyter,
+`/home/mambauser` pour une image basée sur `mambaorg/micromamba`.
+
+Pour le déterminer, vous pouvez démarrer votre environnement avant
+d'avoir configuré la persistance, ouvrir un terminal et taper `pwd`
+pour obtenir le chemin du dossier courant.
+
+Évolution planifiée: améliorer la terminologie dans l'interface pour
+plus de cohérence.
+
+:::
+
+:::{admonition} Options d'affichage
+
+L'onglet «Options d'affichage» permet de configurer comment
+l'utilisateur accède à l'interface du conteneur docker. Pour cela, on
+peut configurer un ou plusieurs boutons avec pour chacun un lien de
+connexion.
+
+Cette connexion est sécurisée par une authentification par un mot de
+passe tiré au hasard et éventuellement un identifiant associé qui ont
+par ailleurs été transmis au conteneur au démarrage de celui-ci. Le
+traitement d'une telle authentification dépend de l'interface utilisée
+dans le conteneur docker (JupyterLab, ssh, ...). Idéalement, cette
+étape est automatisée, typiquement en transmettant le token via le
+lien. Par exemple, avec JupyterLab, on peut utiliser comme lien:
+
+    https://{{HOST['8888']}}/?token={{PASSWORD}}
+
+Sinon, ce sera à l'utilisateur de saisir manuellement le mot de passe
+et l'éventuel identifiant à l'ouverture de l'interface. Il faudra donc
+les avoir préalablement affichés.
+
 :::
 
 ### Références
