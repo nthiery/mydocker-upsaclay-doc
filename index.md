@@ -585,6 +585,7 @@ plus de cohérence.
 :::
 
 :::{admonition} Options d'affichage
+:class: hint dropdown
 
 L'onglet «Options d'affichage» permet de configurer comment
 l'utilisateur accède à l'interface du conteneur docker. Pour cela, on
