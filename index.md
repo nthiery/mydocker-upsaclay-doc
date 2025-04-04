@@ -643,3 +643,4 @@ les avoir préalablement affichés.
 ## Alternatives et projets similaires (à venir)
 
 JupyterHub, SSPCloud, CoCalc, https://nuvolos.cloud/, PlasmaBio, ...
+Interactive notebook service of [EOSC EU Node](https://open-science-cloud.ec.europa.eu/)
