@@ -158,12 +158,22 @@ de la communauté Jupyter.
 :::{admonition} 🚧JupyterLab et SQL [Démarrer l'environnement](https://mydocker.universite-paris-saclay.fr/shell/join/BwDiQTSWOZJdqReXqpdV)🚧
 :class: dropdown
 
-- Interface: JupyterLab, en Anglais
-- Logiciels: PostgreSQL et librairie python psycopg2
-- Ressources: dossier personnel persistant, 2 CPU, 4Go RAM, database persistant dans le home de l'utilisateur
+ Interface: JupyterLab
+- Logiciels: PostgreSQL, Python et psycopg2
+- Ressources: dossier personnel persistant, 2 CPU, 4Go RAM, base de données persistante dans le dossier de l'utilisateur
 - Services:
      - PostgreSQL (disponible au démarrage, `psql --list` visualise les bases déjà existantes),
-     - Serveur web python (doit être démarré avec `python -m http.server`, pages consultables via `https://<mydocker-host>/proxy/8000`)
+     - Serveur web python (doit être démarré avec `python -m http.server` dans le dossier choisi; pages consultables via `https://<mydocker-host>/proxy/8000`)
+
+
+
+- Interface: JupyterLab
+- Logiciels: PostgreSQL, Python et bibliothèque psycopg2
+- Ressources: dossier personnel persistant avec dossier de données
+  dans ~/pgsql_data, 2 CPU, 4Go RAM
+- Services:
+     - PostgreSQL (disponible au démarrage, `psql --list` visualise les bases déjà existantes),
+     - Serveur web (peut être démarré avec `python -m http.server` dans le dossier choisi; pages consultables via `https://<mydocker-host>/proxy/8000`)
 - Cours: ???
 - Mainteneur: Chiara Marmo
 - [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/56/edit) (accès restreint)
