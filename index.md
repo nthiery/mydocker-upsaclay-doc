@@ -155,6 +155,24 @@ de la communauté Jupyter.
 
 :::
 
+:::{admonition} 🚧JupyterLab et SQL [Démarrer l'environnement](https://mydocker.universite-paris-saclay.fr/shell/join/BwDiQTSWOZJdqReXqpdV)🚧
+:class: dropdown
+
+- Interface: JupyterLab, en Anglais
+- Logiciels: PostgreSQL et librairie python psycopg2
+- Ressources: dossier personnel persistant, 2 CPU, 4Go RAM, database persistant dans le home de l'utilisateur
+- Services:
+     - PostgreSQL (disponible au démarrage, `psql --list` visualise les bases déjà existantes),
+     - Serveur web python (doit être démarré avec `python -m http.server`, pages consultables via `https://<mydocker-host>/proxy/8000`)
+- Cours: ???
+- Mainteneur: Chiara Marmo
+- [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/56/edit) (accès restreint)
+
+Cet environnement est basé sur l'image
+[jupyter/minimal-notebook](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-minimal-notebook).
+
+:::
+
 ## À propos du service
 
 :::{admonition} Fonctionnalités essentielles
