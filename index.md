@@ -490,6 +490,40 @@ Comment organiser le rendu des devoirs :
 - Inclure dans l'environnement, typiquement via un fichier de contexte
 - Montage S3 (à venir)
 
+(collaboration)
+### Collaboration temps réel (à venir)
+
+À ce stade, mydocker (comme JupyterHub@Paris-Saclay précédemment) ne
+propose pas en soi de fonctionnalité de collaboration. C'est une
+limitation bien identifiée!
+
+Cela étant dit: pour les environnements basés sur JupyterLab, il est
+possible de configurer l'environnement pour lancer JupyterLab en mode
+collaboratif.  Dans ce cas, l'utilisateur pourra partager un lien
+d'invitation pour que d'autres personnes se joignent à sa session,
+avec édition collaborative comme dans Google colab.
+
+https://jupyterlab-realtime-collaboration.readthedocs.io/en/latest/
+https://github.com/jupyterlab-contrib/jupyterlab-link-share
+
+Les limitations sont:
+- Nous n'avons pas encore eu l'occasion de tester sur le terrain
+- Cela donne un accès complet à l'environnement de l'utilisateur. Si
+  cet environnement contient par exemple des dossiers correspondant à
+  différents cours, tous ces dossiers seront accessibles.
+- Le lien est limité à la session courante. Les invités ne peuvent pas
+  l'utiliser pour accéder à l'environnement collaboratif -- et
+  notamment le redémarrer -- une fois la session terminée.
+
+Nous souhaiterions avancer sur le sujet, et serions très intéressés
+pour vous accompagner si vous étiez partant pour béta tester.
+
+En complément, vous pourriez être intéressés pour l'outil de gestion
+des devoirs (préparation, distribution, suivi, collecte)
+[Travo](https://travo-cr.gitlab.io/travo/), basé sur GitLab, qui
+dispose de quelques fonctionnalités de collaboration asynchrone
+simple.
+
 ### Comment créer son propre environnement
 
 La première étape est d'identifier les besoins pour vos usages:
