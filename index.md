@@ -524,6 +524,7 @@ des devoirs (préparation, distribution, suivi, collecte)
 dispose de quelques fonctionnalités de collaboration asynchrone
 simple.
 
+(creer_environnement)=
 ### Comment créer son propre environnement
 
 La première étape est d'identifier les besoins pour vos usages:
