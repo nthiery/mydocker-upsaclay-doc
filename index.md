@@ -174,6 +174,26 @@ Cet environnement est basé sur l'image
 
 :::
 
+:::{admonition} 🚧JupyterLab et R [Démarrer l'environnement](https://mydocker.universite-paris-saclay.fr/shell/join/yTiJIgUfGnwEMXztjsXH)🚧
+:class: dropdown
+
+- Interface: JupyterLab
+- Logiciels: R et paquets R usuels
+- Ressources: dossier personnel persistant, 2 CPU, 4Go RAM
+- Cours: ???
+- Mainteneur: Nicolas M. Thiéry
+- [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/53/edit) (accès restreint)
+- [Configuration de l'image](https://mydocker.universite-paris-saclay.fr/admin/images/32/edit)
+
+Cet environnement est basé sur l'image
+[jupyter/r-notebook](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-r-notebook).
+
+Cet environnement est en cours d'élaboration. Nous [contacter](contact) pour toute
+suggestion de paquet R classique à ajouter est bienvenue; de même si vous souhaiteriez
+utiliser RStudio ou Rcmd.
+
+:::
+
 ## À propos du service
 
 :::{admonition} Fonctionnalités essentielles
