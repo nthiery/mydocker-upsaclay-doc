@@ -133,7 +133,7 @@ l'usage CPU. Merci de ne pas en abuser!
   - ...
 - Mainteneur: Nicolas M. Thiéry
 - [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/20/edit) (accès restreint)
-- [Configuration de l'image](https://gitlab.dsi.universite-paris-saclay.fr/M2MathAgregation/ComputerLab) (accès temporairement restreint au «campus de Paris-Saclay»)
+- [Configuration de l'image](https://gitlab.dsi.universite-paris-saclay.fr/M2MathAgregation/ComputerLab)
 
 :::
 
@@ -147,7 +147,7 @@ l'usage CPU. Merci de ne pas en abuser!
 - Cours: ???
 - Mainteneur: Nicolas M. Thiéry, Bastien Berret
 - [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/8/edit) (accès restreint)
-- [Configuration de l'image](https://gitlab.dsi.universite-paris-saclay.fr/jupyterhub-paris-saclay/images-alternatives/julia) (accès temporairement restreint au «campus de Paris-Saclay»)
+- [Configuration de l'image](https://gitlab.dsi.universite-paris-saclay.fr/jupyterhub-paris-saclay/images-alternatives/julia)
 
 Cet environnement est basé sur l'image
 [jupyter/pytorch-notebook](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#julia-notebook)
