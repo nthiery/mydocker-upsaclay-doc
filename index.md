@@ -194,6 +194,128 @@ utiliser RStudio ou Rcmd.
 
 :::
 
+:::{admonition} 🚧VSCode et C++  [Démarrer l'environnement](https://mydocker.universite-paris-saclay.fr/shell/join/TODO)🚧
+:class: dropdown
+
+- Interface: Visual Studio Code
+- Logiciels: gcc, clang, boost, ....
+- Ressources: dossier personnel persistant, 2 CPU, 4Go RAM
+- Cours:
+  - ...
+- Mainteneur: Dominique Marcadet
+- [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/TODO/edit) (accès restreint)
+- [Configuration de l'image](https://gitlab.dsi.universite-paris-saclay.fr/mydocker/images/openvscode-cpp)
+
+Cet environnement est basé sur l'image [openvscode](https://gitlab.dsi.universite-paris-saclay.fr/mydocker/images/openvscode).
+
+:::
+
+:::{admonition} 🚧VSCode et Javascript  [Démarrer l'environnement](https://mydocker.universite-paris-saclay.fr/shell/join/TODO)🚧
+:class: dropdown
+
+- Interface: Visual Studio Code
+- Logiciels: 
+- Ressources: dossier personnel persistant, 2 CPU, 4Go RAM
+- Cours:
+  - ...
+- Mainteneur: Dominique Marcadet
+- [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/TODO/edit) (accès restreint)
+- [Configuration de l'image](https://gitlab.dsi.universite-paris-saclay.fr/mydocker/images/openvscode-cpp)
+
+Cet environnement est basé sur l'image [openvscode](https://gitlab.dsi.universite-paris-saclay.fr/mydocker/images/openvscode).
+
+:::
+
+:::{admonition} 🚧VSCode et Rust  [Démarrer l'environnement](https://mydocker.universite-paris-saclay.fr/shell/join/TODO)🚧
+:class: dropdown
+
+- Interface: Visual Studio Code
+- Logiciels: 
+- Ressources: dossier personnel persistant, 2 CPU, 4Go RAM
+- Cours:
+  - ...
+- Mainteneur: Dominique Marcadet
+- [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/TODO/edit) (accès restreint)
+- [Configuration de l'image](https://gitlab.dsi.universite-paris-saclay.fr/mydocker/images/openvscode-cpp)
+
+Cet environnement est basé sur l'image [openvscode](https://gitlab.dsi.universite-paris-saclay.fr/mydocker/images/openvscode).
+
+:::
+
+Sur demande: VSCode et Java
+
+
+
+:::{admonition} 🚧VSCode et Rust  [Démarrer l'environnement](https://mydocker.universite-paris-saclay.fr/shell/join/TODO)🚧
+:class: dropdown
+
+- Interface: Visual Studio Code
+- Logiciels: 
+- Ressources: dossier personnel persistant, 2 CPU, 4Go RAM
+- Cours:
+  - ...
+- Mainteneur: Dominique Marcadet
+- [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/TODO/edit) (accès restreint)
+- [Configuration de l'image](https://gitlab.dsi.universite-paris-saclay.fr/mydocker/images/openvscode-cpp)
+
+Cet environnement est basé sur l'image [openvscode](https://gitlab.dsi.universite-paris-saclay.fr/mydocker/images/openvscode).
+
+:::
+
+% Sur demande VSCode et LaTeX?
+
+
+:::{admonition} 🚧XFCE, Eclipse et Java  [Démarrer l'environnement](https://mydocker.universite-paris-saclay.fr/shell/join/TODO)🚧
+:class: dropdown
+
+- Interface: Environnement de bureau léger XFCE
+- Logiciels: 
+- Ressources: dossier personnel persistant, 2 CPU, 4Go RAM
+- Cours:
+  - ...
+- Mainteneur: Dominique Marcadet
+- [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/TODO/edit) (accès restreint)
+- [Configuration de l'image](https://gitlab.dsi.universite-paris-saclay.fr/mydocker/images/webtop-ecjaba)
+
+Cet environnement est basé sur l'image [openvscode](https://gitlab.dsi.universite-paris-saclay.fr/mydocker/images/webtop).
+
+:::
+
+% :::{admonition} 🚧XFCE, R et Rcmd  [Démarrer l'environnement](https://mydocker.universite-paris-saclay.fr/shell/join/TODO)🚧
+% :class: dropdown
+%  
+% - Interface: Environnement de bureau léger XFCE
+% - Logiciels: 
+% - Ressources: dossier personnel persistant, 2 CPU, 4Go RAM
+% - Cours:
+%   - ...
+% - Mainteneur: Dominique Marcadet
+% - [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/TODO/edit) (accès restreint)
+% - [Configuration de l'image](https://gitlab.dsi.universite-paris-saclay.fr/mydocker/images/webtop-ecjaba)
+%  
+% Cet environnement est basé sur l'image [openvscode](https://gitlab.dsi.universite-paris-saclay.fr/mydocker/images/webtop).
+%  
+% :::
+
+
+% :::{admonition} 🚧XFCE et Cisco Paquet Tracer  [Démarrer l'environnement](https://mydocker.universite-paris-saclay.fr/shell/join/TODO)🚧
+% :class: dropdown
+%  
+% - Interface: Environnement de bureau léger XFCE
+% - Logiciels: 
+% - Ressources: dossier personnel persistant, 2 CPU, 4Go RAM
+% - Conditions particulières
+% - Cours:
+%   - ...
+% - Mainteneur: Dominique Marcadet
+% - [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/TODO/edit) (accès restreint)
+% - [Configuration de l'image](https://gitlab.dsi.universite-paris-saclay.fr/mydocker/images/webtop-ecjaba)
+%  
+% Cet environnement est basé sur l'image [openvscode](https://gitlab.dsi.universite-paris-saclay.fr/mydocker/images/webtop).
+%  
+% :::
+
+
 ## À propos du service
 
 :::{admonition} Fonctionnalités essentielles
